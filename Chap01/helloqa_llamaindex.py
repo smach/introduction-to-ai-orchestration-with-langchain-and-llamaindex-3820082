@@ -1,5 +1,6 @@
 # pip install llama-index
-from llama_index import Document, VectorStoreIndex
+# from llama_index import Document, VectorStoreIndex # this no longer works
+from llama_index.core import Document, VectorStoreIndex
 
 #import logging
 #import sys
